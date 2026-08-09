@@ -12,10 +12,13 @@ const [counter,setCounter] = useState(15)
 const addValue = () => {
   // console.log(counter)
   // counter = counter+1
-    if(counter<20){
-      setCounter(counter+1)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
+      setCounter(prevCounter=>prevCounter+1)
 
-    }
+
+  
 }
 
 const removeValue = () => {
