@@ -1,2 +1,2 @@
-# REACT-TUTORIAL
-this is react tutorial
+# REACT-PROJECTS
+this is react learning projects
